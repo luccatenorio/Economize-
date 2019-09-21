@@ -1,1 +1,1 @@
-https://stackblitz.com/edit/angular-xxxpqm
+https://angular-xxxpqm.stackblitz.io
