@@ -1,0 +1,66 @@
+
+
+=============== PARTE DO CSS ========================================
+
+
+p {
+  font-family: Lato;
+}
+img {
+  position: absolute;
+  left: -7px;
+  width: 150px;
+  
+  top: 0px;
+}
+h1#aa{
+  border-bottom: 2px #000000 solid;
+  font-family: Arial;
+}
+
+h2{
+  font-family: Arial;
+}
+input#av{
+  position:absolute;
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  color:#000000;
+  left: 20px;
+}
+header{
+  background-color:#8cdac2;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+select{
+  position:absolute;
+  left: 123px;
+  height: 21px;
+}
+
+
+
+=========================== PARTE DO HTML ===============================
+
+<head>
+</head>
+
+  <div>
+    <header>
+    <p><img  align="left" src="https://images.vexels.com/media/users/3/130665/isolated/lists/174f518a6520dc06d1846bfb5a64e989-icone-de-circulo-grafico.png" >
+    <h1 id="aa">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metas</h1><br><br>
+    <br><br><br>
+    <h2>&nbsp;&nbsp;Meta:</h2>
+    <input id="av" type="text" placeholder="     Digite aqui">
+    <select>
+      <option>Curtíssimo</option>
+      <option>Curto</option>
+      <option>Médio</option>
+      <option>Longo</option>
+    </select>
+    </header>
+  </div>
